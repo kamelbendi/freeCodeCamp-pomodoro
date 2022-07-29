@@ -101,7 +101,7 @@ function App(){
     };
     return (
          <div className="center-align">
-            <h1>Pomodoro 25 + 5 Clock</h1>
+            <h3>Pomodoro 25 + 5 Clock</h3>
             <div className="dual-container">
             <Length title={"Break Length"} changeTime={changeTime} type={"break"} time={breakTime} formatTime={formatTime}/>
             <Length title={"Session Length"} changeTime={changeTime} type={"session"} time={sessionTime} formatTime={formatTime}/>
